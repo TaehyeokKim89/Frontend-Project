@@ -513,6 +513,24 @@
         "hash": "10c0/c941b4689dfc4044b64a5f601306cbcb0c7210be853ba378a5dd44137898c45accedd796ee002ad9407024cac7ecaf5049304951cb1d80ce3d7cebbbae56f20e"
       }
     },
+    "npm:@types/react-dom@19.0.3": {
+      "type": "npm",
+      "name": "npm:@types/react-dom@19.0.3",
+      "data": {
+        "version": "19.0.3",
+        "packageName": "@types/react-dom",
+        "hash": "10c0/3867427b333cbe8cbba496d7cc20ec9676d32c25ae44f4d1263a4129d42e57cf4adf0039ad263432f1215b88075c27d326e7eb4ed646128235d01a76e661d48f"
+      }
+    },
+    "npm:@types/react@19.0.7": {
+      "type": "npm",
+      "name": "npm:@types/react@19.0.7",
+      "data": {
+        "version": "19.0.7",
+        "packageName": "@types/react",
+        "hash": "10c0/818e546fa03a2a65ac2652fc472891ac96684211e8967bc25e1da6a8a09e2301ad972b1b038d128f8b4cbbd7691f6f57fee274db568169e9b6b01556abbb5bee"
+      }
+    },
     "npm:@types/semver@7.5.8": {
       "type": "npm",
       "name": "npm:@types/semver@7.5.8",
@@ -1105,6 +1123,15 @@
         "version": "7.0.6",
         "packageName": "cross-spawn",
         "hash": "10c0/053ea8b2135caff68a9e81470e845613e374e7309a47731e81639de3eaeb90c3d01af0e0b44d2ab9d50b43467223b88567dfeb3262db942dc063b9976718ffc1"
+      }
+    },
+    "npm:csstype@3.1.3": {
+      "type": "npm",
+      "name": "npm:csstype@3.1.3",
+      "data": {
+        "version": "3.1.3",
+        "packageName": "csstype",
+        "hash": "10c0/80c089d6f7e0c5b2bd83cf0539ab41474198579584fa10d86d0cafe0642202343cbc119e076a0b1aece191989477081415d66c9fefbf3c957fc2fc4b7009f248"
       }
     },
     "npm:damerau-levenshtein@1.0.8": {
@@ -3033,6 +3060,15 @@
         "hash": "10c0/900a93d3cdae3acd7d16f642c29a642aea32c2026446151f0778c62ac089d4b8e6c986811076e1ae180a694cedf077d453a11b58ff0a865629a4f82ab558e102"
       }
     },
+    "npm:react-dom@19.0.0": {
+      "type": "npm",
+      "name": "npm:react-dom@19.0.0",
+      "data": {
+        "version": "19.0.0",
+        "packageName": "react-dom",
+        "hash": "10c0/a36ce7ab507b237ae2759c984cdaad4af4096d8199fb65b3815c16825e5cfeb7293da790a3fc2184b52bfba7ba3ff31c058c01947aff6fd1a3701632aabaa6a9"
+      }
+    },
     "npm:react-is@16.13.1": {
       "type": "npm",
       "name": "npm:react-is@16.13.1",
@@ -3049,6 +3085,15 @@
         "version": "18.3.1",
         "packageName": "react-is",
         "hash": "10c0/f2f1e60010c683479e74c63f96b09fb41603527cd131a9959e2aee1e5a8b0caf270b365e5ca77d4a6b18aae659b60a86150bb3979073528877029b35aecd2072"
+      }
+    },
+    "npm:react@19.0.0": {
+      "type": "npm",
+      "name": "npm:react@19.0.0",
+      "data": {
+        "version": "19.0.0",
+        "packageName": "react",
+        "hash": "10c0/9cad8f103e8e3a16d15cb18a0d8115d8bd9f9e1ce3420310aea381eb42aa0a4f812cf047bb5441349257a05fba8a291515691e3cb51267279b2d2c3253f38471"
       }
     },
     "npm:readable-stream@3.6.2": {
@@ -3211,6 +3256,15 @@
         "version": "1.1.0",
         "packageName": "safe-regex-test",
         "hash": "10c0/f2c25281bbe5d39cddbbce7f86fca5ea9b3ce3354ea6cd7c81c31b006a5a9fff4286acc5450a3b9122c56c33eba69c56b9131ad751457b2b4a585825e6a10665"
+      }
+    },
+    "npm:scheduler@0.25.0": {
+      "type": "npm",
+      "name": "npm:scheduler@0.25.0",
+      "data": {
+        "version": "0.25.0",
+        "packageName": "scheduler",
+        "hash": "10c0/a4bb1da406b613ce72c1299db43759526058fdcc413999c3c3e0db8956df7633acf395cb20eb2303b6a65d658d66b6585d344460abaee8080b4aa931f10eaafe"
       }
     },
     "npm:semver@6.3.1": {
@@ -3968,6 +4022,11 @@
     {
       "source": "npm:@types/node@22.10.7",
       "target": "npm:undici-types@6.20.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:@types/react@19.0.7",
+      "target": "npm:csstype@3.1.3",
       "type": "static"
     },
     {
@@ -9068,6 +9127,11 @@
     {
       "source": "npm:prop-types@15.8.1",
       "target": "npm:react-is@16.13.1",
+      "type": "static"
+    },
+    {
+      "source": "npm:react-dom@19.0.0",
+      "target": "npm:scheduler@0.25.0",
       "type": "static"
     },
     {
