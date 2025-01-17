@@ -1,0 +1,37 @@
+(node:76580) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+X [ERROR]X [ ERRORInvalid option in build() call: "config"
+
+    C:\code\front-project\.yarn\unplugged\esbuild-npm-0.16.17-89fa4ab0dd\node_modules\esbuild\lib\main.js:256:12:
+      256 │       throw new Error(`Invalid option ${where}: ${quote(key)}`);
+          ╵             ^
+
+    at checkForInvalidFlags (C:\code\front-project\.yarn\unplugged\esbuild-npm-0.16.17-89fa4ab0dd\node_modules\esbuild\lib\main.js:256:13)
+    at flagsForBuildOptions (C:\code\front-project\.yarn\unplugged\esbuild-npm-0.16.17-89fa4ab0dd\node_modules\esbuild\lib\main.js:461:3)
+    at buildOrServeContinue (C:\code\front-project\.yarn\unplugged\esbuild-npm-0.16.17-89fa4ab0dd\node_modules\esbuild\lib\main.js:1018:9)
+    at buildOrServeImpl (C:\code\front-project\.yarn\unplugged\esbuild-npm-0.16.17-89fa4ab0dd\node_modules\esbuild\lib\main.js:1001:5)
+    at Object.buildOrServe (C:\code\front-project\.yarn\unplugged\esbuild-npm-0.16.17-89fa4ab0dd\node_modules\esbuild\lib\main.js:780:5)
+    at C:\code\front-project\.yarn\unplugged\esbuild-npm-0.16.17-89fa4ab0dd\node_modules\esbuild\lib\main.js:2132:17
+    at new Promise (<anonymous>)
+    at Object.build (C:\code\front-project\.yarn\unplugged\esbuild-npm-0.16.17-89fa4ab0dd\node_modules\esbuild\lib\main.js:2131:14)
+    at build (C:\code\front-project\.yarn\unplugged\esbuild-npm-0.16.17-89fa4ab0dd\node_modules\esbuild\lib\main.js:1978:51)
+    at run (C:\code\front-project\packages\esbuild-config\index.js:38:5)
+
+] Invalid option in build() call: "config"
+
+    C:\code\front-project\.yarn\unplugged\esbuild-npm-0.16.17-89fa4ab0dd\node_modules\esbuild\lib\main.js:256:12:
+      256 │       throw new Error(`Invalid option ${where}: ${quote(key)}`);
+          ╵             ^
+
+    at checkForInvalidFlags (C:\code\front-project\.yarn\unplugged\esbuild-npm-0.16.17-89fa4ab0dd\node_modules\esbuild\lib\main.js:256:13)
+    at flagsForBuildOptions (C:\code\front-project\.yarn\unplugged\esbuild-npm-0.16.17-89fa4ab0dd\node_modules\esbuild\lib\main.js:461:3)
+    at buildOrServeContinue (C:\code\front-project\.yarn\unplugged\esbuild-npm-0.16.17-89fa4ab0dd\node_modules\esbuild\lib\main.js:1018:9)
+    at buildOrServeImpl (C:\code\front-project\.yarn\unplugged\esbuild-npm-0.16.17-89fa4ab0dd\node_modules\esbuild\lib\main.js:1001:5)
+    at Object.buildOrServe (C:\code\front-project\.yarn\unplugged\esbuild-npm-0.16.17-89fa4ab0dd\node_modules\esbuild\lib\main.js:780:5)
+    at C:\code\front-project\.yarn\unplugged\esbuild-npm-0.16.17-89fa4ab0dd\node_modules\esbuild\lib\main.js:2132:17
+    at new Promise (<anonymous>)
+    at Object.build (C:\code\front-project\.yarn\unplugged\esbuild-npm-0.16.17-89fa4ab0dd\node_modules\esbuild\lib\main.js:2131:14)
+    at build (C:\code\front-project\.yarn\unplugged\esbuild-npm-0.16.17-89fa4ab0dd\node_modules\esbuild\lib\main.js:1978:51)
+    at run (C:\code\front-project\packages\esbuild-config\index.js:31:5)
+
+build failed

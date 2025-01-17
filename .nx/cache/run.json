@@ -1,0 +1,32 @@
+{
+  "run": {
+    "command": "nx build @th/themes",
+    "startTime": "2025-01-17T07:01:33.890Z",
+    "endTime": "2025-01-17T07:01:41.009Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@th/esbuild-config:build",
+      "target": "build",
+      "projectName": "@th/esbuild-config",
+      "hash": "15214951459279033457",
+      "startTime": "2025-01-17T07:01:33.903Z",
+      "endTime": "2025-01-17T07:01:35.103Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@th/themes:build",
+      "target": "build",
+      "projectName": "@th/themes",
+      "hash": "5234414655928415297",
+      "startTime": "2025-01-17T07:01:35.107Z",
+      "endTime": "2025-01-17T07:01:41.009Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+(node:53944) ExperimentalWarning: Import assertions are not a stable feature of the JavaScript language. Avoid relying on their current behavior and syntax as those might change in a future version of Node.js.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:53944) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
